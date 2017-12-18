@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+.defaultPage{
+	height: 500px;
+	background-color: #606060;
+}
+
+label{
+	color: white;
+}
+
+.outLineTable{
+	width: 600px;
+	height: 500px;
+	text-align: center;
+}
+
+.dataSheet{
+	background-color: #E1E1E1;
+}
+
+.situationSheet{
+	background-color: #505050;
+}
+
+.tableHead{
+	background-color: #DEDEDE;
+}

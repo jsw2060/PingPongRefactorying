@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+#mainFeeManagerPage {
+	height: 500px;
+	background-color: #606060;
+}
+
+label{
+	color: white;
+}
+
+table{
+	width: 600px;
+	cellpadding: 0;
+	cellspacing: 0;
+	text-align: center;
+}
+
+.dataSheet{
+	background-color: #E1E1E1;
+}
+
+.situationSheet{
+	background-color: #505050;
+}

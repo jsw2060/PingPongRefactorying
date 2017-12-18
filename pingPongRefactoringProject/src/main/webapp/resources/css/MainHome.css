@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+
+#mainHomePage {
+	height: 500px;
+	background-color: #606060;
+}
+
+#mainTitle {
+	/* width: 768px; */
+	text-align: center;
+	font-family: 'Arizonia', fantasy;
+	font-style: italic;
+	font-size: 20px;
+	margin: 0;
+	padding: 10px;
+}
+
+.slide {
+	width: 550px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+
+.slide ul, li, button {
+	margin: 0;
+	padding: 0;
+}
+
+img.mainSlideImg {
+	display: block;
+	border: 0;
+	width: 550px;
+	height: 350px;
+}
+
+.slide button {
+	border: 0;
+	background: none;
+}
+
+.slide ul {
+	width: 2750px;
+	list-style: none;
+	font-size: 0;
+}
+
+.slide ul li {
+	display: inline-block;
+}
+
+.slide button.prev {
+	position: absolute;
+	left: -25px;
+	top: 150px;
+}
+
+.slide button.next {
+	position: absolute;
+	right: -25px;
+	top: 150px;
+}
